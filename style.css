@@ -1,0 +1,60 @@
+:root {
+    --black: #000;
+    --grey: #7D808A;
+    --white: #fff;
+    --clr1: #2fb982;
+    --clr2: #2b883e;
+    --clr3: #229940;
+    --clr4: #038C4C;
+    --clr5: #025930;
+}
+
+*,
+*::after,
+*::before,
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--grey);
+    display: grid;
+    height: 200vh;
+    place-items: center;
+}
+
+
+h1 {
+  position: relative;
+  top: 50px;   
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.img1 img {
+ position: relative;
+  top: 120px;  
+}
+
+.img2 img {
+ position: relative;
+  top: 230px;  
+}
+
+.img3 img {
+ position: relative;
+  top: 320px;  
+}
+
+.img4 img {
+ position: relative;
+  top: 420px;  
+}
+
+.text {
+  position: relative;
+  top: 600px;   
+}
